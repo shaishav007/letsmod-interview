@@ -16,7 +16,7 @@ const hasArgument = (name: string) => {
 export default defineConfig(({ mode, ...rest }) => {
   const env = loadEnv(mode, process.cwd(), "");
   const hmr = hasArgument("no-hmr") ? false : undefined;
-  const browserUrl = hasArgument("no-browser") ? undefined : "";
+  const browserUrl = hasArgument("no-browser") ? undefined : "./";
 
   return {
     define: {
