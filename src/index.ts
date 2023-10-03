@@ -1,4 +1,4 @@
-import { Scene, Mesh, SphereGeometry, WebGLRenderer, PerspectiveCamera, MeshBasicMaterial, Color } from "three";
+import { Scene, Mesh, BoxGeometry, WebGLRenderer, PerspectiveCamera, MeshBasicMaterial, Color } from "three";
 
 export class ExampleGame
 {
@@ -31,8 +31,9 @@ export class ExampleGame
 
     for (let i = 0; i < 100; i++)
     {
-      let o = this.objects[i] = new Mesh( new SphereGeometry( 1, 16, 8 ), new MeshBasicMaterial( {color: new Color(Math.random() * 0.5 + 0.25, Math.random() * 0.5 + 0.25, Math.random() * 0.5 + 0.25)}) );
+      let o = this.objects[i] = new Mesh(new BoxGeometry(1, 1, 1), new MeshBasicMaterial( {color: new Color(Math.random() * 0.5 + 0.25, Math.random() * 0.5 + 0.25, Math.random() * 0.5 + 0.25)}) );
       o.position.set(Math.random() * 20 - 10, Math.random() * 20 - 10, Math.random() * 20 - 10);
+      o.quaternion.random();
       this.scene.add(o);
     }
 
