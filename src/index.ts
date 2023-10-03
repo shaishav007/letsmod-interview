@@ -24,7 +24,7 @@ export class ExampleGame
     // create scene
     this.scene = new Scene();
     this.camera = new PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 100 );
-    this.camera.position.set(0, 10, 20);
+    this.camera.position.set(5, 10, 20);
     this.camera.lookAt(0, 0, 0);
 
     this.objects = [];
