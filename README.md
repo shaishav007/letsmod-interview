@@ -20,3 +20,16 @@ You are encouraged to make commits to your working copy of the project as you ad
 1. Push the changes from your working copy back to your fork.
 2. Grant your interviewer(s) read access to your fork, using the github account(s) they provided.
 3. Notify your interviewer(s) that your submission is ready for review.
+
+
+-----My solution-----------------------------------------------------------------
+The implementation just has a selection mechanism that adds an outline object 
+around the current object and then removes it when deselected. For now, click
+selects the object. 
+
+I drew an excalidraw to outline the the process:-
+https://excalidraw.com/#json=z61wSy9zmAIRKHvTqTDBn,hBp6ba4anntXuVt4P507Lg
+
+There's a space there for feedback. I would really appreciate it if you took a few mins to write down your evaluation and comments on my thoughts. This helps me become a more all-rounded developer.
+
+Thank you for the opportunity. This was a fun assignment.

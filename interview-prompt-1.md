@@ -22,3 +22,16 @@ For setting up the project and submitting your solution, see the [README](./READ
 
 # API Reference
 Documentation for the three.js library can be found at https://threejs.org/docs/index.html.
+
+
+-----My solution-----------------------------------------------------------------
+The implementation just has a selection mechanism that adds an outline object 
+around the current object and then removes it when deselected. For now, click
+selects the object. 
+
+I drew an excalidraw to outline the the process:-
+https://excalidraw.com/#json=z61wSy9zmAIRKHvTqTDBn,hBp6ba4anntXuVt4P507Lg
+
+There's a space there for feedback. I would really appreciate it if you took a few mins to write down your evaluation and comments on my thoughts. This helps me become a more all-rounded developer.
+
+Thank you for the opportunity. This was a fun assignment.

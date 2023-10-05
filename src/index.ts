@@ -127,9 +127,9 @@ export class ExampleGame
 
     // Modify the color of the material to make it lighter
     const highlightColor = new Color(
-      Math.min(1, originalMaterial.color.r + 0.2), // Adjust the 'r' component for a lighter color
-      Math.min(1, originalMaterial.color.g + 0.2), // Adjust the 'g' component for a lighter color
-      Math.min(1, originalMaterial.color.b + 0.2)  // Adjust the 'b' component for a lighter color
+      Math.min(1, originalMaterial.color.r + 0.2), 
+      Math.min(1, originalMaterial.color.g + 0.2), 
+      Math.min(1, originalMaterial.color.b + 0.2)  
     );
     const outlineMaterial = new MeshBasicMaterial({
       color: highlightColor, 
